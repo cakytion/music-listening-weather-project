@@ -11,7 +11,7 @@
 ## 📄 Full Report
 This repository serves as an overview. For the complete methodology, deep-dive analysis, and detailed visualizations, please view the full report below:
 
-### [👉 Click Here to Read the Full Report (PDF)](Spotify_Weather_Report.pdf)
+### https://drive.google.com/file/d/1vnrQymiPeV_gztv4TddbDY-adKw-SEiN/view?usp=drive_link
 *(Note: Please click the link above to view the analysis file)*
 
 ---
