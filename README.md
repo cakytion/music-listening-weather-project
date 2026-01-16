@@ -16,7 +16,7 @@ The objective is to study the relationship between **Thai weather conditions** (
 - Mr. Assadavut Hodmontade
 - Mr. Nutthanun Jarukornkul
 - Mr. Thiti Tiyachaipanich
-- Mr. Ratchanon Tiptamoon
+- Mr. Ratchanon Tiptamool
 - Mr. Saksit Vetchawittayaklang
 - Mr. Thammaphon Changpathee
 
