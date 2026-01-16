@@ -1,56 +1,46 @@
-# 🎵 Analysis of Music Listening Behavior on Spotify in Thai Weather Conditions
+# 🎵 Spotify Listening Habits & Weather Analysis in Thailand 🌦️
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Library](https://img.shields.io/badge/Library-Pandas%20%7C%20Scikit--Learn-orange)
-![University](https://img.shields.io/badge/KMUTT-CPE232-red)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Tools](https://img.shields.io/badge/Tools-Google%20Colab%20%7C%20Pandas%20%7C%20Scikit--Learn-orange)
+![Type](https://img.shields.io/badge/Type-Data%20Analysis%20Project-green)
 
-## 📌 Project Overview
-This project is part of the **CPE232 Data Model** course at **King Mongkut's University of Technology Thonburi (KMUTT)**. 
+> **"Does rain make Thai people listen to sad songs?"** > This project explores the connection between weather conditions (Temperature & Rainfall) and music trends on Spotify Thailand Daily Charts.
 
-The objective is to study the relationship between **Thai weather conditions** (Temperature, Rain) and **Spotify music preferences** (Audio features like Danceability, Energy, Valence). We aim to analyze whether weather patterns influence the type of music people listen to and build a machine learning model to predict weather context based on song features.
+---
 
-**Research Question:** *Does the weather affect the mood of the music we choose to listen to?*
+## 📄 Full Report
+This repository serves as an overview. For the complete methodology, deep-dive analysis, and detailed visualizations, please view the full report below:
 
-## 👥 Team Members (Group "ต้าวอ้วน")
-- Mr. Tharatorn Prakotkla
-- Mr. Assadavut Hodmontade
-- Mr. Nutthanun Jarukornkul
-- Mr. Thiti Tiyachaipanich
-- Mr. Ratchanon Tiptamool
-- Mr. Saksit Vetchawittayaklang
-- Mr. Thammaphon Changpathee
+### [👉 Click Here to Read the Full Report (PDF)](Spotify_Weather_Report.pdf)
+*(Note: Please click the link above to view the analysis file)*
 
-## ⚙️ Methodology
+---
 
-### 1. Data Preparation
-- Collected music data using **Spotify API** (features: valence, energy, danceability, acousticness, etc.).
-- Collected weather data (Temperature, Rain status) corresponding to the listening timestamps.
-- Cleaned and merged datasets using `Pandas`.
+## 🔍 Project Highlights (Executive Summary)
 
-### 2. Exploratory Data Analysis (EDA)
-- Analyzed correlations between audio features and weather conditions.
-- Visualized distributions of song attributes across different weather types.
+### 🎯 Objective
+[cite_start]To apply Data Science techniques (Cleaning, EDA, Clustering, Machine Learning) to find correlations between **Bangkok's weather** and **Spotify Thailand's Top Charts** throughout 2023 [cite: 18-24].
 
-### 3. Machine Learning Modeling
-- **Task:** Multi-output Classification/Regression (Predicting `average_temp` and `rain`).
-- **Model Used:** Random Forest (optimized using `GridSearchCV`).
-- **Best Parameters:** - `max_depth`: 10
-  - `min_samples_split`: 5
-  - `n_estimators`: 58
-- **Evaluation:** Accuracy Score.
+### 💡 Key Insights from the Report
+* **The "Rain Effect":** While general weather doesn't drastically change music taste, we found a specific anomaly during **"Heavy Rain" (>64.5mm)**. [cite_start]Songs with titles related to rain (e.g., "ฝนตกไหม") significantly spiked in rankings[cite: 665, 837].
+* [cite_start]**Prediction Model:** We developed a Machine Learning model (Random Forest) that could predict temperature based on song attributes with reasonable accuracy, though rainfall prediction remains challenging due to external factors[cite: 807, 847].
 
-## 📊 Results & Insights
-*(You can add a summary of your findings here, e.g., "We found that people tend to listen to high-energy music when it rains...")*
+### 🛠️ Tech Stack & Skills Demonstrated
+* [cite_start]**Data Preparation:** Merging datasets from Spotify API and Hydro-Informatics Institute (HII)[cite: 53, 56].
+* [cite_start]**Clustering:** Used **K-Means (Elbow Method)** to categorize weather conditions[cite: 688].
+* **Visualization:** Created Heatmaps and Scatter plots to identify trends.
+* [cite_start]**Machine Learning:** Implemented `RandomForestRegressor` and `MultiOutputRegressor`[cite: 807].
 
-- **Model Accuracy:** [Insert your final accuracy score here]
+---
 
-## 🛠️ Tech Stack
-- **Language:** Python
-- **Data Manipulation:** Pandas, NumPy
-- **Visualization:** Matplotlib, Seaborn
-- **Machine Learning:** Scikit-learn
+## 👥 Contributors
+[cite_start]*Project for CPE232 Data Model Course, KMUTT* [cite: 9]
 
-## 🚀 How to Run
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/spotify-weather-analysis.git](https://github.com/YOUR_USERNAME/spotify-weather-analysis.git)
+* **Mr. Tharatorn Prakodkla**
+* **Mr. Assadawut Hodmontade**
+* **Mr. Natthanan Jarukornkul**
+* **Mr. Thiti Tiyachaipanich**
+* **Mr. Ratchanon Thiptamoon**
+* **Mr. Saksit Vetchawitthayakhlang**
+* **Mr. Thammapon Chaengphatee**
+[cite_start][cite: 5-7]
