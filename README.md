@@ -40,7 +40,7 @@ This repository serves as an overview. For the complete methodology, deep-dive a
 * **Mr. Assadawut Hodmontade**
 * **Mr. Natthanan Jarukornkul**
 * **Mr. Thiti Tiyachaipanich**
-* **Mr. Ratchanon Thiptamoon**
+* **Mr. Ratchanon Thiptamool**
 * **Mr. Saksit Vetchawitthayakhlang**
 * **Mr. Thammapon Chaengphatee**
 [cite_start][cite: 5-7]
