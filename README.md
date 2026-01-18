@@ -19,22 +19,22 @@ This repository serves as an overview. For the complete methodology, deep-dive a
 ## 🔍 Project Highlights (Executive Summary)
 
 ### 🎯 Objective
-[cite_start]To apply Data Science techniques (Cleaning, EDA, Clustering, Machine Learning) to find correlations between **Bangkok's weather** and **Spotify Thailand's Top Charts** throughout 2023 [cite: 18-24].
+To apply Data Science techniques (Cleaning, EDA, Clustering, Machine Learning) to find correlations between **Bangkok's weather** and **Spotify Thailand's Top Charts** throughout 2023
 
 ### 💡 Key Insights from the Report
-* **The "Rain Effect":** While general weather doesn't drastically change music taste, we found a specific anomaly during **"Heavy Rain" (>64.5mm)**. [cite_start]Songs with titles related to rain (e.g., "ฝนตกไหม") significantly spiked in rankings[cite: 665, 837].
-* [cite_start]**Prediction Model:** We developed a Machine Learning model (Random Forest) that could predict temperature based on song attributes with reasonable accuracy, though rainfall prediction remains challenging due to external factors[cite: 807, 847].
+* **The "Rain Effect":** While general weather doesn't drastically change music taste, we found a specific anomaly during **"Heavy Rain" (>64.5mm)**. [cite_start]Songs with titles related to rain (e.g., "ฝนตกไหม") significantly spiked in rankings.
+* **Prediction Model:** We developed a Machine Learning model (Random Forest) that could predict temperature based on song attributes with reasonable accuracy, though rainfall prediction remains challenging due to external factors.
 
 ### 🛠️ Tech Stack & Skills Demonstrated
-* [cite_start]**Data Preparation:** Merging datasets from Spotify API and Hydro-Informatics Institute (HII)[cite: 53, 56].
-* [cite_start]**Clustering:** Used **K-Means (Elbow Method)** to categorize weather conditions[cite: 688].
-* **Visualization:** Created Heatmaps and Scatter plots to identify trends.
-* [cite_start]**Machine Learning:** Implemented `RandomForestRegressor` and `MultiOutputRegressor`[cite: 807].
+**Data Preparation:** Merging datasets from Spotify API and Hydro-Informatics Institute (HII).
+* [cite_start]**Clustering:** Used **K-Means (Elbow Method)** to categorize weather conditions.
+ **Visualization:** Created Heatmaps and Scatter plots to identify trends.
+**Machine Learning:** Implemented `RandomForestRegressor` and `MultiOutputRegressor`.
 
 ---
 
 ## 👥 Contributors
-[cite_start]*Project for CPE232 Data Model Course, KMUTT* [cite: 9]
+*Project for CPE232 Data Model Course, KMUTT* 
 
 * **Mr. Tharatorn Prakodkla**
 * **Mr. Assadawut Hodmontade**
@@ -43,4 +43,4 @@ This repository serves as an overview. For the complete methodology, deep-dive a
 * **Mr. Ratchanon Thiptamool**
 * **Mr. Saksit Vetchawitthayakhlang**
 * **Mr. Thammapon Chaengphatee**
-[cite_start][cite: 5-7]
+
