@@ -27,7 +27,7 @@ To apply Data Science techniques (Cleaning, EDA, Clustering, Machine Learning) t
 
 ### 🛠️ Tech Stack & Skills Demonstrated
 **Data Preparation:** Merging datasets from Spotify API and Hydro-Informatics Institute (HII).
-* [cite_start]**Clustering:** Used **K-Means (Elbow Method)** to categorize weather conditions.
+**Clustering:** Used **K-Means (Elbow Method)** to categorize weather conditions.
  **Visualization:** Created Heatmaps and Scatter plots to identify trends.
 **Machine Learning:** Implemented `RandomForestRegressor` and `MultiOutputRegressor`.
 
